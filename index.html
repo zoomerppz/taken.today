@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>consumed</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <base target="_blank" />
+  </head>
+
+  <body>
+    <main class="wrap">
+      <header class="header">
+        <div class="brand">
+          <div class="dot" aria-hidden="true"></div>
+          <h1 class="title">consumed</h1>
+        </div>
+
+        <p class="subtitle">
+          a daily digest of the food (+ media) i consumed.
+        </p>
+
+        <div class="meta">
+          <span class="pill">images: <code>1_26112026.jpg</code></span>
+          <span class="pill">click a day to expand</span>
+        </div>
+      </header>
+
+      <section class="list">
+
+        <!-- DAY TEMPLATE: copy/paste this block daily -->
+        <details class="day" open>
+          <summary class="day__summary">
+            <span class="day__date">nov 26, 2026</span>
+            <span class="day__hint">4 items</span>
+          </summary>
+
+          <div class="day__content">
+
+            <details class="section" open>
+              <summary class="section__summary">physical</summary>
+              <div class="grid">
+                <figure class="shot">
+                  <img loading="lazy" data-src="images/1_26112026.jpg" alt="food photo 1" />
+                </figure>
+                <figure class="shot">
+                  <img loading="lazy" data-src="images/2_26112026.jpg" alt="food photo 2" />
+                </figure>
+              </div>
+            </details>
+
+            <details class="section">
+              <summary class="section__summary">text</summary>
+              <div class="links">
+                <a href="https://example.com">thing i read</a>
+                <a href="https://example.com">another thing</a>
+              </div>
+            </details>
+
+            <details class="section">
+              <summary class="section__summary">audio</summary>
+              <ul class="lines">
+                <li>song — artist</li>
+                <li>song — artist</li>
+              </ul>
+            </details>
+
+            <details class="section">
+              <summary class="section__summary">video</summary>
+              <div class="links">
+                <a href="https://youtube.com/">video title</a>
+              </div>
+            </details>
+
+          </div>
+        </details>
+
+        <!-- Add more <details class="day"> blocks under this line -->
+
+      </section>
+
+      <footer class="footer">
+        <span>made by me · updated daily</span>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
